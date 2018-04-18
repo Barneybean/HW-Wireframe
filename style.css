@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    overflow: auto;
+    line-height:18px;
 }
 /* to keep items in line and not busting out */
 
@@ -18,24 +18,27 @@ body {
 .box {
     background: #ebebeb;
     width: 90%;
-    margin: 5px;
+    margin: 5px auto 0;
     padding: 20px;
     display: inline-block;
-    
 }
 
 h4 {
     color: #777;
 }
 
-.section {
+.middle{
+    width:90%;
+    margin: auto;
+    
+ }
+
+.block {
     background: #ebebeb;
     width: 55%;
     height: 300px;
     padding: 5px;
-    display: inline-block;
-    margin-left:0px;
-    margin-right: 14px;
+    overflow: auto;
     margin-top:5px;
     float: left;
 }
@@ -43,9 +46,10 @@ h4 {
 .article {
     background: #777;
     height: 75%;
+    overflow: auto;
 }
 
-#white {
+#white-text {
     color:#ebebeb;
     text-align: center;
 }
@@ -58,19 +62,15 @@ h4 {
     margin-right: auto;
     margin-top: 7px;
     margin-bottom: 10px;
-    
+    overflow: auto;
 }
 
 .aside{
     background: #ebebeb;
-    width: 43.7%;
+    width: 44%;
     height: 300px;
     padding: 10px;
     float: right;
     margin-top:5px;
 }
 
-.middle{
-   width:90%;
-   margin: auto;
-}
